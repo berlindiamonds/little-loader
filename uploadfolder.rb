@@ -12,7 +12,7 @@ puts "select a file by typing the name of one from this list"
 
 basedir = 'uploads'
 
-files = Dir.glob("*")
+files = Dir.glob("#{basedir}/*")
 
 puts files
 
