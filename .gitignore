@@ -1,0 +1,7 @@
+# OS generated files #
+######################
+.DS_Store
+
+client_secret.json
+config.json
+spreadsheet.rb

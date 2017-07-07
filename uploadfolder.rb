@@ -4,7 +4,10 @@ session = GoogleDrive::Session.from_config("client_secret.json")
 # create file
 puts "select a file by typing the name of one from this list"
 
-files = Dir.glob("*")
+basedir = 'uploads'
+
+files = Dir.glob("#{basedir}/*")
+
 puts files
 
 selection = gets.chomp
